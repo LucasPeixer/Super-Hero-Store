@@ -1,0 +1,33 @@
+.cabeçalho {
+    background-image: url(../imagensAtualizadas/contatoheader.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    aspect-ratio: 16/9;
+}
+
+
+.header-logo-title-img {
+    width: 100%;
+    display: flex;
+    justify-content: flex-start;
+    padding: 20% 0 0 5%;
+}
+
+.header-logo-title img {
+    width: 40%;
+}
+
+@media screen and (min-width: 300px) and (max-width: 650px) {
+
+    .cabeçalho {
+        background-image: url(../imagensAtualizadas/contatoheader_mobile.jpg);
+        background-repeat: no-repeat;
+        background-size: 100%;
+        height: 432px;
+    }
+
+    .header-logo-title img {
+        display: none;
+    }
+}

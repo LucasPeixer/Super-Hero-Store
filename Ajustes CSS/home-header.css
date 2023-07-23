@@ -1,0 +1,42 @@
+.cabeçalho {
+    background-image: url(../imagensAtualizadas/spidermanheader.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    aspect-ratio: 16/9;
+}
+
+
+.header-logo-title {
+    width: 100%;
+    display: flex;
+    justify-content: flex-start;
+    padding: 10% 0 0 5%;
+}
+
+.header-title-container {
+    display: flex;
+    width: 50%;
+    
+}
+
+.header-title-container img {
+    width: 50%;
+}
+
+@media screen and (min-width: 300px) and (max-width: 650px) {
+
+    .cabeçalho {
+        background-image: url(../imagensAtualizadas/spidermanheader_mobile.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        width: 960px;
+        height: 540px;
+    }
+
+    .header-title-container {
+        width: 95%;
+        margin: 30% 10% 0 0;
+    }
+
+}

@@ -1,0 +1,34 @@
+.cabeçalho {
+    background-image: url(../imagensAtualizadas/captainmarvelheader.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    aspect-ratio: 19.2/10.8;
+    object-fit: cover;
+}
+
+
+.header-logo-title {
+    width: 100%;
+    display: flex;
+    justify-content: flex-start;
+    padding: 25.5% 0 0 12.5%;
+}
+
+.header-logo-title img {
+    width: 45%;
+}
+
+@media screen and (min-width: 300px) and (max-width:650px) {
+    .cabeçalho {
+        background-image: url(../imagensAtualizadas/captainmarvelheader_Mobile.jpg);
+        background-size: 100%;
+        height: 430px;
+        aspect-ratio:initial;
+        
+    }
+
+
+    .header-logo-title {
+        display: none;
+    }
+}
